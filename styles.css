@@ -13,7 +13,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
-  color: #141a53;
+  color: #2c2929;
   margin: 0;
 }
 
@@ -45,7 +45,7 @@ a:visited {
   margin: 30px 8px;
   padding: 15px;
   border-radius: 5px;
-  background: #eee;
+  background-color: #eee;
 }
 
 main {
@@ -56,10 +56,11 @@ main {
 @media (max-width: 460px) {
   #main {
     margin: 0;
+    padding: 0;
   }
 }
 
-img {
+#image{
   max-width: 100%;
   display: block;
   height: auto;
@@ -74,6 +75,7 @@ img {
 
 #img-caption {
   margin: 15px 0 5px 0;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 460px) {
@@ -94,6 +96,13 @@ ul {
   line-height: 1.6;
 }
 
+ol {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
 li {
   margin: 16px 0;
 }
@@ -104,3 +113,10 @@ blockquote {
   margin: 0 auto 50px auto;
   text-align: left;
 }
+
+.imagen-circular {
+  width: 100px; /* Ancho igual a la altura para que sea cuadrada */
+  height: 100px;
+  border-radius: 50%; /* Hace el borde circular */
+}
+  
